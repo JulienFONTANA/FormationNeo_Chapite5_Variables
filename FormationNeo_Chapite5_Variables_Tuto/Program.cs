@@ -20,7 +20,7 @@
  * les variables!
 */
 
-// Ces lignes permettent d'appeler des "bibliothèques sytèmes"
+// Ces lignes permettent d'appeler des "Bibliothèques Sytèmes"
 // Nous reviendrons sur ce concept plus tard!
 using System;
 using System.Collections.Generic;
