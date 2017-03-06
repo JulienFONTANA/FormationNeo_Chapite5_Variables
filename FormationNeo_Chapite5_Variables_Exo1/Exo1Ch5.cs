@@ -1,7 +1,7 @@
 ﻿
 /* Vous revoila! Si vous n'avez pas encore lu "FormationNeo_Chapitre5_Variable_Tuto", alors 
- * je vous conseille fortement d'y jeter un oeil! Si ce n'est pas fait, cliquer dans l'onglet 
- * de droite "Explorateur de solution" sur le projet qui s'appel "FormationNeo_Chapitre5_Variable_Tuto".
+ * je vous conseille fortement d'y jeter un oeil! Si ce n'est pas fait, cliquer dans l'onglet en haut à droite
+ * nomé "Explorateur de solution"  puis sur le projet qui s'appel "FormationNeo_Chapitre5_Variable_Tuto".
  * Dans le menu déroulant qui s'affiche, et double cliquer sur le fichier "Program.cs" pour commencer 
  * votre formation.
  * 
@@ -13,7 +13,7 @@
  *      --> Les variables numériques (int, double...)
  *      --> Les opération mathématiques de base
  * 
- * Commencer par choisir ce projet au démarrage. pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Exo1",
+ * Commencer par choisir ce projet au démarrage. Pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Exo1",
  * et cliquer sur l'icone de roue dentée "Définir comme projet de démarrage"
  * 
  * Utiliser Ctrl + F5 pour compiler et lancer le projet

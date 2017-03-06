@@ -7,7 +7,7 @@
  *      --> Les variables non numériques (string, bool...)
  *      --> et c'est tout ;)
  * 
- * Commencer par choisir ce projet au démarrage. pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Exo2",
+ * Commencer par choisir ce projet au démarrage. Pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Solution2",
  * et cliquer sur l'icone de roue dentée "Définir comme projet de démarrage"
  * 
  * Utiliser Ctrl + F5 pour compiler et lancer le projet

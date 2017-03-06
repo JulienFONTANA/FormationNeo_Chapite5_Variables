@@ -18,6 +18,10 @@
  * 
  * Nous allons commencer par la brique élémentaire de tout programme informatique,
  * les variables!
+ * 
+ * Commencer par choisir ce projet au démarrage. Pour ce faire, faites un clic droit 
+ * sur "FormationNeo_Chapitre5_Variable_Tuto", et cliquer sur l'icone 
+ * de roue dentée "Définir comme projet de démarrage".
 */
 
 // Ces lignes permettent d'appeler des "Bibliothèques Sytèmes"
@@ -156,7 +160,12 @@ namespace FormationNeo_Chapite5_Variables_Tuto
 
             /* Vous voici à la fin de ce premier tutoriel, vous allez donc pouvoir compiler et lancer l'application!
              * Pour ce faire, utiliser le raccourci Ctrl + F5, ou décommenter la ligne suivante et cliquer sur le bouton
-             * "Démarrer" situé en haut de la page, prèt de la flèche verte.
+             * "Démarrer" situé en haut de la page, pret de la flèche verte.
+             * 
+             * Si rien ne s'affiche, vous n'avez pas du définir le bon projet au démarrage!
+             * Rappel: pour définir ce projet, faites un clic droit 
+             * sur "FormationNeo_Chapitre5_Variable_Tuto", et cliquer sur l'icone 
+             * de roue dentée "Définir comme projet de démarrage".
             */
             // Console.ReadKey(); // Si vous décommenter cette ligne, appuyer sur n'importe quelle touche pour quitter
         }

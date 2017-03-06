@@ -13,7 +13,7 @@
  *      --> Les variables numériques (int, double...)
  *      --> Les opération mathématiques de base
  * 
- * Commencer par choisir ce projet au démarrage. pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Exo1",
+ * Commencer par choisir ce projet au démarrage. Pour ce faire, faites un clic droit sur "FormationNeo_Chapitre5_Variable_Solution1",
  * et cliquer sur l'icone de roue dentée "Définir comme projet de démarrage"
  * 
  * Utiliser Ctrl + F5 pour compiler et lancer le projet
