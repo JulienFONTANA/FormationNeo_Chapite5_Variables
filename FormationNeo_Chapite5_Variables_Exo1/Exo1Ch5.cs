@@ -61,7 +61,7 @@ namespace FormationNeo_Chapite5_Variables_Exo1
 
             // Afficher le résultat d'une muliplication entre 'd' et 'e' sans créer de nouvelles variables
 
-            // Afficher le résultat d'une division entre 'e' et 'd' sans créer de nouvelles variables
+            // Afficher le résultat d'une division de 'e' par 'd' sans créer de nouvelles variables 
 
             // Essayer d'expliquer ce résultat!
         }

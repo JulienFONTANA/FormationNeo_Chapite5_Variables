@@ -1,6 +1,6 @@
 ﻿
 /* Bonjour dans votre premier exercice de la formation Néo!
- * Avez vous bien lu le programme des exercices? Bien, allons-y!
+ * Avez vous bien lu le cours? Bien, allons-y!
  * 
  * Avant de réparer le QG des super-héros, il vous faut
  * commencer par la base. Ce projet est lire de haut en bas, comme un livre
@@ -21,22 +21,19 @@
 */
 
 // Ces lignes permettent d'appeler des "Bibliothèques Sytèmes"
-// Nous reviendrons sur ce concept plus tard!
+// Cette instruction permet que l'on utilise des variables par exemple,
+// et elle gère pour nous beaucoup plus!
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Le "namespace" est l'endroit où vit votre programme
 namespace FormationNeo_Chapite5_Variables_Tuto
 {
-    // Voici l'endroit où tout ce joue. C'est icique commence votre premier programme!
+    // Voici l'endroit où tout ce joue. C'est ici que commence votre premier programme!
     class Program
     {
         /*Le "Main" est la fonction principale de tout programme. C'est par cette fonction
          * que votre programme commencera toujours. Il n'y à qu'une fonction dans ce chapitre,
-         * et nous verrons plus en détails les fonction dans le chapitre 7!
+         * et nous verrons plus en détails les fonctions dans le chapitre 7!
         */
         static void Main(string[] args)
         {
@@ -51,14 +48,14 @@ namespace FormationNeo_Chapite5_Variables_Tuto
 
             // Commençons par les entiers, les int (pour integers en anglais)
             // Déclaration de variables en une seule ligne:
-            int variableUne = 6;
+            int variableUne = 5;
             int variableDeux = 3;
 
             // Déclaration de variable en plusieurs lignes:
             int variableTrois;
             variableTrois = 73;
 
-            // Il est possible de déclarer une variable dans l'affecter
+            // Il est possible de déclarer une variable sans l'affecter
             int resultat;
 
 
@@ -67,7 +64,7 @@ namespace FormationNeo_Chapite5_Variables_Tuto
             #region Debut de tutoriel
             // Cette ligne affiche "Début du tutoriel" à l'écran. 
             // Notez bien: On ne voit pas l'initialisation des variables.
-            Console.WriteLine("- - - Début du tutoriel - - -" + '\n');
+            Console.WriteLine("- - - Début du tutoriel - - -" + Environment.NewLine);
 
             // On peut afficher une variable via la commande suivante.
             // Elle sera écrite pour vous dans ces exercices
@@ -81,11 +78,12 @@ namespace FormationNeo_Chapite5_Variables_Tuto
             // Console.WriteLine("Valeur de resultat " + resultat);
 
             // Il est possible d'affecter une valeur à une variable pendant un programme,
-            // Et ce autant de fois qu'on le veux! Passons à la suite...
+            // et ce autant de fois qu'on le veux! Désomais, variableUne vaut 6 (jusqu'à la fin de ce tuto)
+            variableUne = 6 ;
             #endregion
 
             #region Opérations mathématiques
-            Console.WriteLine('\n' + "- - - Opérations mathématiques - - -" + '\n');
+            Console.WriteLine(Environment.NewLine + "- - - Opérations mathématiques - - -" + Environment.NewLine);
 
             resultat = variableUne + variableDeux; // ici resultat vaut 6 + 3 soit 9.
             Console.WriteLine("Valeur de resultat addition: " + resultat); // Ici, pas d'erreur, car resultat à désormais une valeur.
@@ -127,7 +125,7 @@ namespace FormationNeo_Chapite5_Variables_Tuto
             #endregion
 
             #region Les autres variables
-            Console.WriteLine('\n' + "- - - Autres variables - - -" + '\n');
+            Console.WriteLine(Environment.NewLine + "- - - Autres variables - - -" + Environment.NewLine);
 
             // Le double contient une valeur non entière
             double unDouble = 3.677;
@@ -145,12 +143,12 @@ namespace FormationNeo_Chapite5_Variables_Tuto
             var uneVariableAuTypeIndetermine = 3; // ici 'var' est un 'int'
             var uneVariableAuTypeIndetermine2 = "poney"; // ici 'var' est une 'string'
 
-            Console.WriteLine("Ici, il y a plein de variables!" + '\n'
-                            + "Il y a un double qui vaut " + unDouble + '\n'
-                            + "Il y a un booleen qui vaut " + unBool + '\n'
-                            + "Il y a un charactère qui vaut " + unCharC + '\n'
-                            + "Il y a une string qui vaut '" + uneString + "'\n"
-                            + "Et il y a deux variable 'var' qui valent '" + uneVariableAuTypeIndetermine +"' et '" + uneVariableAuTypeIndetermine2 + "'!\n");
+            Console.WriteLine("Ici, il y a plein de variables!" + Environment.NewLine
+                            + "Il y a un double qui vaut " + unDouble + Environment.NewLine
+                            + "Il y a un booleen qui vaut " + unBool + Environment.NewLine
+                            + "Il y a un charactère qui vaut " + unCharC + Environment.NewLine
+                            + "Il y a une string qui vaut '" + uneString + Environment.NewLine
+                            + "Et il y a deux variable 'var' qui valent '" + uneVariableAuTypeIndetermine +"' et '" + uneVariableAuTypeIndetermine2 + "'!" + Environment.NewLine);
 
             // Et le type void? Hé bien il est impossible d'initialiser un type void! Nous en reparlerons plus tard!
             // Noter en attendant que la fonction "Main" est de type... void!

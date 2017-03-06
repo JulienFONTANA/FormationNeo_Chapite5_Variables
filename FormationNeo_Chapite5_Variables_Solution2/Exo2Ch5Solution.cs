@@ -27,27 +27,26 @@ namespace FormationNeo_Chapite5_Variables_Exo2
         static void Main(string[] args)
         {
             // Déclarer une variable capable de contenir un charactère, la lettre t
-            // Attention à la syntaxe !
+            // Afficher cette valeur... Attention à la syntaxe !
             char t = 't';
+            Console.WriteLine("Mon char vaut " + t);
 
             // Déclarer une variable capable de contenir un charactère, le chiffre 8 (oui, un chiffre sous forme de charactère)
-            // Attention à la syntaxe !
+            // Afficher cette valeur... Attention à la syntaxe !
             char huit = '8';
+            Console.WriteLine("Ecriture de 8 en char : " + huit);
 
             // Déclarer une variable capable de contenir une chaine de charactère.
             // Initialiser la avec une phrase simple sur le temps qu'il fait!
-            // Attention à la syntaxe !
-            string str = "Il fait beau aujourd'hui";
-
-            // Afficher la valeur de ces trois variables à l'écran
-            Console.WriteLine(t);
-            Console.WriteLine(huit);
-            Console.WriteLine(str);
+            // Afficher cette valeur... Attention à la syntaxe !
+            string leTempsAujourdhui = "Il fait beau aujourd'hui";
+            Console.WriteLine(leTempsAujourdhui);
 
             /* Affichage attendu:
-             * t
-             * 8
-             * Il fait beau aujourd'hui 
+             * 
+             * Mon char vaut t
+             * Ecriture de 8 en char : 8
+             * Il fait beau aujourd'hui
             */
         }
     }

@@ -46,13 +46,16 @@ namespace FormationNeo_Chapite5_Variables_Exo1
             int resultat = a * b * c;
 
             // Afficher la valeur de 'résultat' à l'écran pour vérifier
-            Console.WriteLine(resultat);
+            Console.WriteLine("Le résultat de a*b*c = " + resultat);
 
             // Multiplier la variable 'résultat' pour la rendre positive sans utiliser de variable. Utiliser un nombre entier...
             resultat = resultat * -1; // ou resultat *= -1;
 
             // Afficher la valeur de 'résultat' à l'écran pour vérifier
-            Console.WriteLine(resultat);
+            Console.WriteLine("La valeur de résultat est positive ici: " + resultat);
+            
+            // Attention à ne pas faire : Console.WriteLine("Valeur positive fausse: " + resultat * -1);
+            // Ici c'est la valeur affichée de résultat qui est modifiée, pas sa valeur réelle
 
             // Affecter la valeur de 'b' à 'c' 
             c = b;
@@ -61,15 +64,15 @@ namespace FormationNeo_Chapite5_Variables_Exo1
             a = a + c; // ou a += c;
 
             // Afficher les valeurs de 'a', de 'b', et de 'c'
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
+            Console.WriteLine("Valeur de 'a' :" + a);
+            Console.WriteLine("Valeur de 'b' :" + b);
+            Console.WriteLine("Valeur de 'c' :" + c);
 
             // Afficher la somme de 'a', 'b' et 'c' de la manière de votre choix 
             //(bonus: possible en une seule ligne sans affectation)
             resultat = a + b + c;
-            Console.WriteLine(resultat);
-            // bonus : Console.WriteLine(a + b + c);
+            Console.WriteLine("Mon résultat = " + resultat);
+            // bonus : Console.WriteLine("Mon résultat = " a + b + c);
 
             // Créer 2 variables, 'd', et 'e' capable de stocker des nombre décimaux (à virgule)
             // Affecter leur les valeurs 3.14 et 5.33 lors de leur déclaration
@@ -79,20 +82,22 @@ namespace FormationNeo_Chapite5_Variables_Exo1
             // Afficher le résultat d'une muliplication entre 'd' et 'e' sans créer de nouvelles variables
             Console.WriteLine(d * e);
 
-            // Afficher le résultat d'une division entre 'e' et 'd' sans créer de nouvelles variables 
+            // Afficher le résultat d'une division de 'e' par 'd' sans créer de nouvelles variables 
             Console.WriteLine(e / d);
 
             // Essayer d'expliquer ce résultat!
 
             /* Affichage attendu:
-             * -42
-             * 42
-             * 10
-             * 7
-             * 7
-             * 24
+             * 
+             * Le résultat de a*b*c = -42
+             * La valeur de résultat est positive ici: 42
+             * Valeur de 'a' :10
+             * Valeur de 'b' :7
+             * Valeur de 'c' :7
+             * Mon résultat = 24
              * 16,7362
              * 1,69745222929936
+             * 
              * Ce résultat est le résultat de la division de nombre à virgules, il est donc à virgules lui aussi!
              * La division 7 / 2 = 3 n'as pas de virgules car ce sont des nombres entiers
             */

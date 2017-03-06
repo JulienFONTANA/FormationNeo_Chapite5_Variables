@@ -27,16 +27,15 @@ namespace FormationNeo_Chapite5_Variables_Exo2
         static void Main(string[] args)
         {
             // Déclarer une variable capable de contenir un charactère, la lettre t
-            // Attention à la syntaxe !
+            // Afficher cette valeur... Attention à la syntaxe !
 
             // Déclarer une variable capable de contenir un charactère, le chiffre 8 (oui, un chiffre sous forme de charactère)
-            // Attention à la syntaxe !
+            // Afficher cette valeur... Attention à la syntaxe !
 
             // Déclarer une variable capable de contenir une chaine de charactère.
             // Initialiser la avec une phrase simple sur le temps qu'il fait!
-            // Attention à la syntaxe !
+            // Afficher cette valeur... Attention à la syntaxe !
 
-            // Afficher la valeur de ces trois variables à l'écran
         }
     }
 }
