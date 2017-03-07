@@ -113,16 +113,8 @@ namespace FormationNeo_Chapite5_Variables_Tuto
             resultat = variableTrois % resultat;  // 73 % 18 = 1
             Console.WriteLine("Valeur de resultat modulo: " + resultat);
 
-            // Il est possible de simplifier les opérations ainsi:
-            resultat = 0;
-            resultat += variableTrois; // équivalent à resultat = resultat + variableTrois; // 0 + 73  = 73
-            resultat -= variableUne; // équivalent à resultat = resultat - variableTrois;   // 73 - 6  = 67
-            resultat *= variableDeux; // équivalent à resultat = resultat * variableTrois;  // 67 * 3  = 201
-            resultat /= variableUne; // équivalent à resultat = resultat / variableTrois;   // 201 / 6 = 33
-            Console.WriteLine("Valeur de resultat final: " + resultat);
-
             // Enfin, il est possible d'incrémenter et de décrémenter une valeur de 1, simplement:
-            variableUne++; // équivalent à variableUne += 1 ou variableUne = variableUne + 1 ou ++variableUne
+            variableUne++; // équivalent à variableUne = variableUne + 1 ou ++variableUne
             Console.WriteLine("Valeur de variableUne incrémenté: " + variableUne); // 6 + 1 = 7;
             variableUne--;
             Console.WriteLine("Valeur de variableUne décrémenté: " + variableUne); // 7 - 1 = 6;

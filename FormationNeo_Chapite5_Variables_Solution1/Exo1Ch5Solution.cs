@@ -58,10 +58,10 @@ namespace FormationNeo_Chapite5_Variables_Exo1
             // Ici c'est la valeur affichée de résultat qui est modifiée, pas sa valeur réelle
 
             // Affecter la valeur de 'b' à 'c' 
-            c = b;
+            c = b; // Attention c'est c qui doit changer de valeur!!!
 
             // Affecter la valeur de 'a' plus 'c' à 'a'
-            a = a + c; // ou a += c;
+            a = a + c;
 
             // Afficher les valeurs de 'a', de 'b', et de 'c'
             Console.WriteLine("Valeur de 'a' :" + a);
