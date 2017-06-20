@@ -2,7 +2,7 @@
 /* Bonjour dans votre premier exercice de la formation Néo!
  * Avez vous bien lu le cours? Bien, allons-y!
  * 
- * Avant de réparer le QG des super-héros, il vous faut
+ * Avant de réparer le QG des héros, il vous faut
  * commencer par la base. Ce projet est lire de haut en bas, comme un livre
  * Les commentaires (en vert, comme celui-çi) sont pour l'instant ce qui est 
  * le plus important à lire et à comprendre !
