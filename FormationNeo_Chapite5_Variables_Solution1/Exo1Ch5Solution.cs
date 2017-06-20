@@ -44,7 +44,7 @@ namespace FormationNeo_Chapite5_Variables_Exo1
             // Afficher la valeur de 'résultat' à l'écran pour vérifier
             Console.WriteLine("Le résultat de a*b*c = " + resultat);
 
-            // Multiplier la variable 'résultat' pour la rendre positive sans utiliser de variable. Utiliser un nombre entier...
+            // Multiplier la variable 'résultat' pour la rendre positive sans utiliser une autre variable. Utiliser un nombre entier...
             resultat = resultat * -1; // ou resultat *= -1;
 
             // Afficher la valeur de 'résultat' à l'écran pour vérifier
