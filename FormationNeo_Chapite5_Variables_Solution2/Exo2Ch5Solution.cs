@@ -16,7 +16,7 @@
 
 using System;
 
-namespace FormationNeo_Chapite5_Variables_Exo2
+namespace FormationNeo_Chapite5_Variables_Solution2
 {
     class Exo2Ch5Solution
     {

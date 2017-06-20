@@ -22,7 +22,7 @@
 
 using System;
 
-namespace FormationNeo_Chapite5_Variables_Exo1
+namespace FormationNeo_Chapite5_Variables_Solution1
 {
     class Exo1Ch5Solution
     {
